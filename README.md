@@ -1,5 +1,5 @@
 # FullStackOpen
-Repo with all the @FullStackOpen 's course exercises regarding the backend.
+Repo with all the @FullStackOpen 's course exercises regarding the backend. The main repo can be found [here](https://github.com/JoaquinCortezHub/FullStackOpen).
 ## Objective 🎯
 - The objective with this course is to learn and even master the MERN stack for
   fullstack development. I'm interested in learning and being proficient in the
