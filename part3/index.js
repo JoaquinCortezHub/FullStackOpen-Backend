@@ -38,6 +38,12 @@ app.get("/api/persons/:id", (request, response) => {
 	response.json(person);
 });
 
+app.delete("/api/persons/:id", (request, response) => {
+	id = Number(request.params.id)
+	personDeleted = persons.filter( person => person.id !== id)
+	response.status(204).end()
+});
+
 app.get("/info", (request, response) => {
 	const currentTime = new Date();
 	const totalEntries = persons.length;
